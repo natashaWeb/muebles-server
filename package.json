@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Este es el servidor de nuestro proyecto de ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "bunyan": "^1.8.15",
+    "nodemon": "^3.1.0"
+  }
+}
